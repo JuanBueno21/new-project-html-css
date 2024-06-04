@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-icon-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: rgb(181, 181, 181);
+}
+
+header .header-icon-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 40px;
+}
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 86%;
+    background-image: url("../assets/img/img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main-text {
+    font-family: "Roboto Serif", serif;
+    font-size: 30px;
+    font-weight: 700px;
+    color: white;
+    /* letter-spacing: 10px; */
+}
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background-color: rgb(181, 181, 181);
+    display: grid;
+    align-items: center;
+}
+.home-main-button a {
+    font-weight: 700px;
+    font-size: 15px;
+}
